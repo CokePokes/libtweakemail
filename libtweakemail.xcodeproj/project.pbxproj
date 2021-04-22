@@ -1,0 +1,355 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B514DB512630F438007912DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B514DB502630F438007912DA /* Foundation.framework */; };
+		B514DB592630F438007912DA /* libtweakemail.mm in Sources */ = {isa = PBXBuildFile; fileRef = B514DB582630F438007912DA /* libtweakemail.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B514DB4D2630F438007912DA /* libtweakemail.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libtweakemail.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		B514DB502630F438007912DA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B514DB552630F438007912DA /* control */ = {isa = PBXFileReference; lastKnownFileType = text; path = control; sourceTree = "<group>"; };
+		B514DB572630F438007912DA /* libtweakemail-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "libtweakemail-Prefix.pch"; path = "../libtweakemail-Prefix.pch"; sourceTree = "<group>"; };
+		B514DB582630F438007912DA /* libtweakemail.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = libtweakemail.mm; sourceTree = "<group>"; };
+		B514DB5D2630F438007912DA /* libtweakemail.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = libtweakemail.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B514DB492630F438007912DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B514DB512630F438007912DA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B514DB432630F438007912DA = {
+			isa = PBXGroup;
+			children = (
+				B514DB522630F438007912DA /* libtweakemail */,
+				B514DB4F2630F438007912DA /* Frameworks */,
+				B514DB4E2630F438007912DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B514DB4E2630F438007912DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B514DB4D2630F438007912DA /* libtweakemail.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B514DB4F2630F438007912DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B514DB502630F438007912DA /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B514DB522630F438007912DA /* libtweakemail */ = {
+			isa = PBXGroup;
+			children = (
+				B514DB582630F438007912DA /* libtweakemail.mm */,
+				B514DB532630F438007912DA /* Package */,
+				B514DB562630F438007912DA /* Supporting Files */,
+			);
+			path = libtweakemail;
+			sourceTree = "<group>";
+		};
+		B514DB532630F438007912DA /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				B514DB542630F438007912DA /* DEBIAN */,
+				B514DB5A2630F438007912DA /* Library */,
+			);
+			path = Package;
+			sourceTree = "<group>";
+		};
+		B514DB542630F438007912DA /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				B514DB552630F438007912DA /* control */,
+			);
+			path = DEBIAN;
+			sourceTree = "<group>";
+		};
+		B514DB562630F438007912DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B514DB572630F438007912DA /* libtweakemail-Prefix.pch */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B514DB5A2630F438007912DA /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				B514DB5B2630F438007912DA /* MobileSubstrate */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		B514DB5B2630F438007912DA /* MobileSubstrate */ = {
+			isa = PBXGroup;
+			children = (
+				B514DB5C2630F438007912DA /* DynamicLibraries */,
+			);
+			path = MobileSubstrate;
+			sourceTree = "<group>";
+		};
+		B514DB5C2630F438007912DA /* DynamicLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				B514DB5D2630F438007912DA /* libtweakemail.plist */,
+			);
+			path = DynamicLibraries;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B514DB4A2630F438007912DA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B514DB4C2630F438007912DA /* libtweakemail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B514DB602630F438007912DA /* Build configuration list for PBXNativeTarget "libtweakemail" */;
+			buildPhases = (
+				B514DB482630F438007912DA /* Sources */,
+				B514DB492630F438007912DA /* Frameworks */,
+				B514DB4A2630F438007912DA /* Headers */,
+				B514DB4B2630F438007912DA /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = libtweakemail;
+			productName = libtweakemail;
+			productReference = B514DB4D2630F438007912DA /* libtweakemail.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B514DB442630F438007912DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1140;
+				TargetAttributes = {
+					B514DB4C2630F438007912DA = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = B514DB472630F438007912DA /* Build configuration list for PBXProject "libtweakemail" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B514DB432630F438007912DA;
+			productRefGroup = B514DB4E2630F438007912DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B514DB4C2630F438007912DA /* libtweakemail */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B514DB4B2630F438007912DA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/MonkeyDev/bin/md --xcbp";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B514DB482630F438007912DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B514DB592630F438007912DA /* libtweakemail.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B514DB5E2630F438007912DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(MonkeyDevPath)/frameworks/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/lib/**";
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				OTHER_CFLAGS = "-DTHEOS_INSTANCE_NAME=\"\\\"libtweakemail\\\"\"";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B514DB5F2630F438007912DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(MonkeyDevPath)/frameworks/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/lib/**";
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-DTHEOS_INSTANCE_NAME=\"\\\"libtweakemail\\\"\"";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		B514DB612630F438007912DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AUYLZA5X3V;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "libtweakemail/libtweakemail-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(MonkeyDevPath)/include",
+					"$(MonkeyDevTheosPath)/vendor/include/**",
+				);
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				MonkeyDevBuildPackageOnAnyBuild = NO;
+				MonkeyDevClearUiCacheOnInstall = NO;
+				MonkeyDevCopyOnBuild = NO;
+				MonkeyDevDeviceIP = "";
+				MonkeyDevDevicePassword = "";
+				MonkeyDevDevicePort = "";
+				MonkeyDevInstallOnAnyBuild = YES;
+				MonkeyDevInstallOnProfiling = YES;
+				MonkeyDevkillProcessOnInstall = SpringBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B514DB622630F438007912DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AUYLZA5X3V;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "libtweakemail/libtweakemail-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(MonkeyDevPath)/include",
+					"$(MonkeyDevTheosPath)/vendor/include/**",
+				);
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				MonkeyDevBuildPackageOnAnyBuild = NO;
+				MonkeyDevClearUiCacheOnInstall = NO;
+				MonkeyDevCopyOnBuild = NO;
+				MonkeyDevDeviceIP = "";
+				MonkeyDevDevicePassword = "";
+				MonkeyDevDevicePort = "";
+				MonkeyDevInstallOnAnyBuild = YES;
+				MonkeyDevInstallOnProfiling = YES;
+				MonkeyDevkillProcessOnInstall = SpringBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B514DB472630F438007912DA /* Build configuration list for PBXProject "libtweakemail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B514DB5E2630F438007912DA /* Release */,
+				B514DB5F2630F438007912DA /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B514DB602630F438007912DA /* Build configuration list for PBXNativeTarget "libtweakemail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B514DB612630F438007912DA /* Release */,
+				B514DB622630F438007912DA /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B514DB442630F438007912DA /* Project object */;
+}
