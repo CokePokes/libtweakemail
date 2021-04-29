@@ -15,7 +15,7 @@ How to use in your tweak/app:
 + (void)sendEmailTo:(NSArray*)toArray bcc:(NSArray*)bccArray subject:(NSString*)subject body:(NSString*)body;
 @end
 
-- (void)showNotification {
+- (void)sendEmail {
 
 	void *handle = dlopen("/Library/MobileSubstrate/DynamicLibraries/libtweakemail.dylib", RTLD_NOW);
 	if (handle != NULL) {                                            
