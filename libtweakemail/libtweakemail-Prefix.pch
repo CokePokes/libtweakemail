@@ -5,3 +5,6 @@
 #ifdef __OBJC__
     #import <Foundation/Foundation.h>
 #endif
+
+#include <os/log.h>
+#define CPLog(fmt, ...) os_log(OS_LOG_DEFAULT, ("\e[4#1mlibtweakemail.dylib\e[m \E[3#2m[Line %d]:\e[m " fmt), __LINE__, ##__VA_ARGS__)

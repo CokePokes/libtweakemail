@@ -2,7 +2,7 @@ Package: com.cokepokes.libtweakemail
 Name: libtweakemail
 Version: 0.1-1
 Description: Send emails via code
-Section: Development
+Section: Tweaks
 Depends: firmware (>= 10.0), mobilesubstrate
 Conflicts: 
 Replaces: 

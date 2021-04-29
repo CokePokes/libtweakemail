@@ -1,0 +1,14 @@
+#!/bin/sh
+
+if [[ $1 == upgrade ]]; then
+	/bin/launchctl unload /Library/LaunchDaemons/com.cokepokes.libtweakemaild.plist
+fi
+
+chown root:wheel /usr/libexec/libtweakemaild
+chmod 755 /usr/libexec/libtweakemaild
+chown root:wheel /Library/LaunchDaemons/com.cokepokes.libtweakemaild.plist
+chmod 644 /Library/LaunchDaemons/com.cokepokes.libtweakemaild.plist
+
+/bin/launchctl load /Library/LaunchDaemons/com.cokepokes.libtweakemaild.plist
+
+exit 0

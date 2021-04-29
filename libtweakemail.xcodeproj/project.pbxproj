@@ -9,15 +9,93 @@
 /* Begin PBXBuildFile section */
 		B514DB512630F438007912DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B514DB502630F438007912DA /* Foundation.framework */; };
 		B514DB592630F438007912DA /* libtweakemail.mm in Sources */ = {isa = PBXBuildFile; fileRef = B514DB582630F438007912DA /* libtweakemail.mm */; };
+		B514DB692630F4B9007912DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B514DB502630F438007912DA /* Foundation.framework */; };
+		B514DB732630F4B9007912DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B514DB722630F4B9007912DA /* main.m */; };
+		B514DB8E2630F99E007912DA /* NSDictionary+CDXPC.m in Sources */ = {isa = PBXBuildFile; fileRef = B514DB7E2630F99E007912DA /* NSDictionary+CDXPC.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B514DB8F2630F99E007912DA /* NSDictionary+CDXPC.m in Sources */ = {isa = PBXBuildFile; fileRef = B514DB7E2630F99E007912DA /* NSDictionary+CDXPC.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B514DB902630F99E007912DA /* NSData+CDXPC.h in Headers */ = {isa = PBXBuildFile; fileRef = B514DB7F2630F99E007912DA /* NSData+CDXPC.h */; };
+		B514DB912630F99E007912DA /* NSData+CDXPC.h in Headers */ = {isa = PBXBuildFile; fileRef = B514DB7F2630F99E007912DA /* NSData+CDXPC.h */; };
+		B514DB922630F99E007912DA /* NSNull+CDXPC.m in Sources */ = {isa = PBXBuildFile; fileRef = B514DB802630F99E007912DA /* NSNull+CDXPC.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B514DB932630F99E007912DA /* NSNull+CDXPC.m in Sources */ = {isa = PBXBuildFile; fileRef = B514DB802630F99E007912DA /* NSNull+CDXPC.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B514DB942630F99E007912DA /* NSString+CDXPC.m in Sources */ = {isa = PBXBuildFile; fileRef = B514DB812630F99E007912DA /* NSString+CDXPC.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B514DB952630F99E007912DA /* NSString+CDXPC.m in Sources */ = {isa = PBXBuildFile; fileRef = B514DB812630F99E007912DA /* NSString+CDXPC.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B514DB962630F99E007912DA /* NSDate+CDXPC.m in Sources */ = {isa = PBXBuildFile; fileRef = B514DB822630F99E007912DA /* NSDate+CDXPC.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B514DB972630F99E007912DA /* NSDate+CDXPC.m in Sources */ = {isa = PBXBuildFile; fileRef = B514DB822630F99E007912DA /* NSDate+CDXPC.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B514DB982630F99E007912DA /* NSNumber+CDXPC.h in Headers */ = {isa = PBXBuildFile; fileRef = B514DB832630F99E007912DA /* NSNumber+CDXPC.h */; };
+		B514DB992630F99E007912DA /* NSNumber+CDXPC.h in Headers */ = {isa = PBXBuildFile; fileRef = B514DB832630F99E007912DA /* NSNumber+CDXPC.h */; };
+		B514DB9A2630F99E007912DA /* ObjectToXPC.h in Headers */ = {isa = PBXBuildFile; fileRef = B514DB842630F99E007912DA /* ObjectToXPC.h */; };
+		B514DB9B2630F99E007912DA /* ObjectToXPC.h in Headers */ = {isa = PBXBuildFile; fileRef = B514DB842630F99E007912DA /* ObjectToXPC.h */; };
+		B514DB9C2630F99E007912DA /* NSArray+CDXPC.h in Headers */ = {isa = PBXBuildFile; fileRef = B514DB852630F99E007912DA /* NSArray+CDXPC.h */; };
+		B514DB9D2630F99E007912DA /* NSArray+CDXPC.h in Headers */ = {isa = PBXBuildFile; fileRef = B514DB852630F99E007912DA /* NSArray+CDXPC.h */; };
+		B514DB9E2630F99E007912DA /* NSData+CDXPC.m in Sources */ = {isa = PBXBuildFile; fileRef = B514DB862630F99E007912DA /* NSData+CDXPC.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B514DB9F2630F99E007912DA /* NSData+CDXPC.m in Sources */ = {isa = PBXBuildFile; fileRef = B514DB862630F99E007912DA /* NSData+CDXPC.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B514DBA02630F99E007912DA /* NSDictionary+CDXPC.h in Headers */ = {isa = PBXBuildFile; fileRef = B514DB872630F99E007912DA /* NSDictionary+CDXPC.h */; };
+		B514DBA12630F99F007912DA /* NSDictionary+CDXPC.h in Headers */ = {isa = PBXBuildFile; fileRef = B514DB872630F99E007912DA /* NSDictionary+CDXPC.h */; };
+		B514DBA22630F99F007912DA /* ObjectToXPC-Private.h in Headers */ = {isa = PBXBuildFile; fileRef = B514DB882630F99E007912DA /* ObjectToXPC-Private.h */; };
+		B514DBA32630F99F007912DA /* ObjectToXPC-Private.h in Headers */ = {isa = PBXBuildFile; fileRef = B514DB882630F99E007912DA /* ObjectToXPC-Private.h */; };
+		B514DBA42630F99F007912DA /* NSString+CDXPC.h in Headers */ = {isa = PBXBuildFile; fileRef = B514DB892630F99E007912DA /* NSString+CDXPC.h */; };
+		B514DBA52630F99F007912DA /* NSString+CDXPC.h in Headers */ = {isa = PBXBuildFile; fileRef = B514DB892630F99E007912DA /* NSString+CDXPC.h */; };
+		B514DBA62630F99F007912DA /* NSNull+CDXPC.h in Headers */ = {isa = PBXBuildFile; fileRef = B514DB8A2630F99E007912DA /* NSNull+CDXPC.h */; };
+		B514DBA72630F99F007912DA /* NSNull+CDXPC.h in Headers */ = {isa = PBXBuildFile; fileRef = B514DB8A2630F99E007912DA /* NSNull+CDXPC.h */; };
+		B514DBA82630F99F007912DA /* NSDate+CDXPC.h in Headers */ = {isa = PBXBuildFile; fileRef = B514DB8B2630F99E007912DA /* NSDate+CDXPC.h */; };
+		B514DBA92630F99F007912DA /* NSDate+CDXPC.h in Headers */ = {isa = PBXBuildFile; fileRef = B514DB8B2630F99E007912DA /* NSDate+CDXPC.h */; };
+		B514DBAA2630F99F007912DA /* NSArray+CDXPC.m in Sources */ = {isa = PBXBuildFile; fileRef = B514DB8C2630F99E007912DA /* NSArray+CDXPC.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B514DBAB2630F99F007912DA /* NSArray+CDXPC.m in Sources */ = {isa = PBXBuildFile; fileRef = B514DB8C2630F99E007912DA /* NSArray+CDXPC.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B514DBAC2630F99F007912DA /* NSNumber+CDXPC.m in Sources */ = {isa = PBXBuildFile; fileRef = B514DB8D2630F99E007912DA /* NSNumber+CDXPC.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B514DBAD2630F99F007912DA /* NSNumber+CDXPC.m in Sources */ = {isa = PBXBuildFile; fileRef = B514DB8D2630F99E007912DA /* NSNumber+CDXPC.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B514DBAF2630FA71007912DA /* mailheaders.h in Headers */ = {isa = PBXBuildFile; fileRef = B514DBAE2630FA71007912DA /* mailheaders.h */; };
+		B514DBB32630FE0F007912DA /* libtweakemail-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = B514DBB22630FE0F007912DA /* libtweakemail-Prefix.pch */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B514DBB02630FD3E007912DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B514DB442630F438007912DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B514DB672630F4B8007912DA;
+			remoteInfo = libtweakemaild;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		B514DB4D2630F438007912DA /* libtweakemail.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libtweakemail.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		B514DB502630F438007912DA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B514DB552630F438007912DA /* control */ = {isa = PBXFileReference; lastKnownFileType = text; path = control; sourceTree = "<group>"; };
-		B514DB572630F438007912DA /* libtweakemail-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "libtweakemail-Prefix.pch"; path = "../libtweakemail-Prefix.pch"; sourceTree = "<group>"; };
 		B514DB582630F438007912DA /* libtweakemail.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = libtweakemail.mm; sourceTree = "<group>"; };
-		B514DB5D2630F438007912DA /* libtweakemail.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = libtweakemail.plist; sourceTree = "<group>"; };
+		B514DB682630F4B8007912DA /* libtweakemaild */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = libtweakemaild; sourceTree = BUILT_PRODUCTS_DIR; };
+		B514DB6D2630F4B9007912DA /* control.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = control.txt; sourceTree = "<group>"; };
+		B514DB6E2630F4B9007912DA /* control */ = {isa = PBXFileReference; lastKnownFileType = text; path = control; sourceTree = "<group>"; };
+		B514DB702630F4B9007912DA /* PackageVersion.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = PackageVersion.plist; path = ../PackageVersion.plist; sourceTree = "<group>"; };
+		B514DB712630F4B9007912DA /* libtweakemaild-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "libtweakemaild-Prefix.pch"; path = "../libtweakemaild-Prefix.pch"; sourceTree = "<group>"; };
+		B514DB722630F4B9007912DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B514DB762630F4B9007912DA /* com.cokepokes.libtweakemaild.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = com.cokepokes.libtweakemaild.plist; sourceTree = "<group>"; };
+		B514DB772630F4B9007912DA /* postinst */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = postinst; sourceTree = "<group>"; };
+		B514DB782630F4B9007912DA /* prerm */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = prerm; sourceTree = "<group>"; };
+		B514DB7C2630F4E3007912DA /* monkeydev.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = monkeydev.entitlements; sourceTree = "<group>"; };
+		B514DB7E2630F99E007912DA /* NSDictionary+CDXPC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+CDXPC.m"; sourceTree = "<group>"; };
+		B514DB7F2630F99E007912DA /* NSData+CDXPC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+CDXPC.h"; sourceTree = "<group>"; };
+		B514DB802630F99E007912DA /* NSNull+CDXPC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNull+CDXPC.m"; sourceTree = "<group>"; };
+		B514DB812630F99E007912DA /* NSString+CDXPC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CDXPC.m"; sourceTree = "<group>"; };
+		B514DB822630F99E007912DA /* NSDate+CDXPC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+CDXPC.m"; sourceTree = "<group>"; };
+		B514DB832630F99E007912DA /* NSNumber+CDXPC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+CDXPC.h"; sourceTree = "<group>"; };
+		B514DB842630F99E007912DA /* ObjectToXPC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectToXPC.h; sourceTree = "<group>"; };
+		B514DB852630F99E007912DA /* NSArray+CDXPC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+CDXPC.h"; sourceTree = "<group>"; };
+		B514DB862630F99E007912DA /* NSData+CDXPC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+CDXPC.m"; sourceTree = "<group>"; };
+		B514DB872630F99E007912DA /* NSDictionary+CDXPC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+CDXPC.h"; sourceTree = "<group>"; };
+		B514DB882630F99E007912DA /* ObjectToXPC-Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ObjectToXPC-Private.h"; sourceTree = "<group>"; };
+		B514DB892630F99E007912DA /* NSString+CDXPC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CDXPC.h"; sourceTree = "<group>"; };
+		B514DB8A2630F99E007912DA /* NSNull+CDXPC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNull+CDXPC.h"; sourceTree = "<group>"; };
+		B514DB8B2630F99E007912DA /* NSDate+CDXPC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+CDXPC.h"; sourceTree = "<group>"; };
+		B514DB8C2630F99E007912DA /* NSArray+CDXPC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+CDXPC.m"; sourceTree = "<group>"; };
+		B514DB8D2630F99E007912DA /* NSNumber+CDXPC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+CDXPC.m"; sourceTree = "<group>"; };
+		B514DBAE2630FA71007912DA /* mailheaders.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mailheaders.h; sourceTree = "<group>"; };
+		B514DBB22630FE0F007912DA /* libtweakemail-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "libtweakemail-Prefix.pch"; path = "libtweakemail/libtweakemail-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		B514DBB42630FECF007912DA /* prerm */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = prerm; sourceTree = "<group>"; };
+		B514DBB52630FECF007912DA /* postinst */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = postinst; sourceTree = "<group>"; };
+		B514DBB826313536007912DA /* com.cokepokes.libtweakemaild.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = com.cokepokes.libtweakemaild.plist; sourceTree = "<group>"; };
+		B514DBBB26313536007912DA /* libtweakemaild */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = libtweakemaild; sourceTree = "<group>"; };
+		B514DBBD26313536007912DA /* libtweakemail.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libtweakemail.dylib; sourceTree = "<group>"; };
+		B514DBBE26313649007912DA /* monkeydev.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = monkeydev.entitlements; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +107,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B514DB642630F4B8007912DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B514DB692630F4B9007912DA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -36,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				B514DB522630F438007912DA /* libtweakemail */,
+				B514DB6A2630F4B9007912DA /* libtweakemaild */,
 				B514DB4F2630F438007912DA /* Frameworks */,
 				B514DB4E2630F438007912DA /* Products */,
 			);
@@ -45,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				B514DB4D2630F438007912DA /* libtweakemail.dylib */,
+				B514DB682630F4B8007912DA /* libtweakemaild */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,6 +148,8 @@
 		B514DB522630F438007912DA /* libtweakemail */ = {
 			isa = PBXGroup;
 			children = (
+				B514DBBE26313649007912DA /* monkeydev.entitlements */,
+				B514DB7D2630F99E007912DA /* ObjectToXPC */,
 				B514DB582630F438007912DA /* libtweakemail.mm */,
 				B514DB532630F438007912DA /* Package */,
 				B514DB562630F438007912DA /* Supporting Files */,
@@ -70,8 +160,9 @@
 		B514DB532630F438007912DA /* Package */ = {
 			isa = PBXGroup;
 			children = (
+				B514DBB626313536007912DA /* Library */,
+				B514DBB926313536007912DA /* usr */,
 				B514DB542630F438007912DA /* DEBIAN */,
-				B514DB5A2630F438007912DA /* Library */,
 			);
 			path = Package;
 			sourceTree = "<group>";
@@ -79,6 +170,8 @@
 		B514DB542630F438007912DA /* DEBIAN */ = {
 			isa = PBXGroup;
 			children = (
+				B514DBB52630FECF007912DA /* postinst */,
+				B514DBB42630FECF007912DA /* prerm */,
 				B514DB552630F438007912DA /* control */,
 			);
 			path = DEBIAN;
@@ -87,33 +180,130 @@
 		B514DB562630F438007912DA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				B514DB572630F438007912DA /* libtweakemail-Prefix.pch */,
+				B514DBB22630FE0F007912DA /* libtweakemail-Prefix.pch */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		B514DB5A2630F438007912DA /* Library */ = {
+		B514DB6A2630F4B9007912DA /* libtweakemaild */ = {
 			isa = PBXGroup;
 			children = (
-				B514DB5B2630F438007912DA /* MobileSubstrate */,
+				B514DB7C2630F4E3007912DA /* monkeydev.entitlements */,
+				B514DB722630F4B9007912DA /* main.m */,
+				B514DBAE2630FA71007912DA /* mailheaders.h */,
+				B514DB6B2630F4B9007912DA /* Package */,
+				B514DB6F2630F4B9007912DA /* Supporting Files */,
+			);
+			path = libtweakemaild;
+			sourceTree = "<group>";
+		};
+		B514DB6B2630F4B9007912DA /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				B514DB6C2630F4B9007912DA /* DEBIAN */,
+				B514DB742630F4B9007912DA /* Library */,
+			);
+			path = Package;
+			sourceTree = "<group>";
+		};
+		B514DB6C2630F4B9007912DA /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				B514DB6D2630F4B9007912DA /* control.txt */,
+				B514DB6E2630F4B9007912DA /* control */,
+				B514DB772630F4B9007912DA /* postinst */,
+				B514DB782630F4B9007912DA /* prerm */,
+			);
+			path = DEBIAN;
+			sourceTree = "<group>";
+		};
+		B514DB6F2630F4B9007912DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B514DB702630F4B9007912DA /* PackageVersion.plist */,
+				B514DB712630F4B9007912DA /* libtweakemaild-Prefix.pch */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B514DB742630F4B9007912DA /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				B514DB752630F4B9007912DA /* LaunchDaemons */,
 			);
 			path = Library;
 			sourceTree = "<group>";
 		};
-		B514DB5B2630F438007912DA /* MobileSubstrate */ = {
+		B514DB752630F4B9007912DA /* LaunchDaemons */ = {
 			isa = PBXGroup;
 			children = (
-				B514DB5C2630F438007912DA /* DynamicLibraries */,
+				B514DB762630F4B9007912DA /* com.cokepokes.libtweakemaild.plist */,
 			);
-			path = MobileSubstrate;
+			path = LaunchDaemons;
 			sourceTree = "<group>";
 		};
-		B514DB5C2630F438007912DA /* DynamicLibraries */ = {
+		B514DB7D2630F99E007912DA /* ObjectToXPC */ = {
 			isa = PBXGroup;
 			children = (
-				B514DB5D2630F438007912DA /* libtweakemail.plist */,
+				B514DB7E2630F99E007912DA /* NSDictionary+CDXPC.m */,
+				B514DB7F2630F99E007912DA /* NSData+CDXPC.h */,
+				B514DB802630F99E007912DA /* NSNull+CDXPC.m */,
+				B514DB812630F99E007912DA /* NSString+CDXPC.m */,
+				B514DB822630F99E007912DA /* NSDate+CDXPC.m */,
+				B514DB832630F99E007912DA /* NSNumber+CDXPC.h */,
+				B514DB842630F99E007912DA /* ObjectToXPC.h */,
+				B514DB852630F99E007912DA /* NSArray+CDXPC.h */,
+				B514DB862630F99E007912DA /* NSData+CDXPC.m */,
+				B514DB872630F99E007912DA /* NSDictionary+CDXPC.h */,
+				B514DB882630F99E007912DA /* ObjectToXPC-Private.h */,
+				B514DB892630F99E007912DA /* NSString+CDXPC.h */,
+				B514DB8A2630F99E007912DA /* NSNull+CDXPC.h */,
+				B514DB8B2630F99E007912DA /* NSDate+CDXPC.h */,
+				B514DB8C2630F99E007912DA /* NSArray+CDXPC.m */,
+				B514DB8D2630F99E007912DA /* NSNumber+CDXPC.m */,
 			);
-			path = DynamicLibraries;
+			path = ObjectToXPC;
+			sourceTree = "<group>";
+		};
+		B514DBB626313536007912DA /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				B514DBB726313536007912DA /* LaunchDaemons */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		B514DBB726313536007912DA /* LaunchDaemons */ = {
+			isa = PBXGroup;
+			children = (
+				B514DBB826313536007912DA /* com.cokepokes.libtweakemaild.plist */,
+			);
+			path = LaunchDaemons;
+			sourceTree = "<group>";
+		};
+		B514DBB926313536007912DA /* usr */ = {
+			isa = PBXGroup;
+			children = (
+				B514DBBA26313536007912DA /* libexec */,
+				B514DBBC26313536007912DA /* lib */,
+			);
+			path = usr;
+			sourceTree = "<group>";
+		};
+		B514DBBA26313536007912DA /* libexec */ = {
+			isa = PBXGroup;
+			children = (
+				B514DBBB26313536007912DA /* libtweakemaild */,
+			);
+			path = libexec;
+			sourceTree = "<group>";
+		};
+		B514DBBC26313536007912DA /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				B514DBBD26313536007912DA /* libtweakemail.dylib */,
+			);
+			path = lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,6 +313,33 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B514DB902630F99E007912DA /* NSData+CDXPC.h in Headers */,
+				B514DB9A2630F99E007912DA /* ObjectToXPC.h in Headers */,
+				B514DB9C2630F99E007912DA /* NSArray+CDXPC.h in Headers */,
+				B514DBA42630F99F007912DA /* NSString+CDXPC.h in Headers */,
+				B514DBA82630F99F007912DA /* NSDate+CDXPC.h in Headers */,
+				B514DBA02630F99E007912DA /* NSDictionary+CDXPC.h in Headers */,
+				B514DBA62630F99F007912DA /* NSNull+CDXPC.h in Headers */,
+				B514DBA22630F99F007912DA /* ObjectToXPC-Private.h in Headers */,
+				B514DB982630F99E007912DA /* NSNumber+CDXPC.h in Headers */,
+				B514DBB32630FE0F007912DA /* libtweakemail-Prefix.pch in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B514DB652630F4B8007912DA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B514DB912630F99E007912DA /* NSData+CDXPC.h in Headers */,
+				B514DB9B2630F99E007912DA /* ObjectToXPC.h in Headers */,
+				B514DB9D2630F99E007912DA /* NSArray+CDXPC.h in Headers */,
+				B514DBA52630F99F007912DA /* NSString+CDXPC.h in Headers */,
+				B514DBAF2630FA71007912DA /* mailheaders.h in Headers */,
+				B514DBA92630F99F007912DA /* NSDate+CDXPC.h in Headers */,
+				B514DBA12630F99F007912DA /* NSDictionary+CDXPC.h in Headers */,
+				B514DBA72630F99F007912DA /* NSNull+CDXPC.h in Headers */,
+				B514DBA32630F99F007912DA /* ObjectToXPC-Private.h in Headers */,
+				B514DB992630F99E007912DA /* NSNumber+CDXPC.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,11 +358,30 @@
 			buildRules = (
 			);
 			dependencies = (
+				B514DBB12630FD3E007912DA /* PBXTargetDependency */,
 			);
 			name = libtweakemail;
 			productName = libtweakemail;
 			productReference = B514DB4D2630F438007912DA /* libtweakemail.dylib */;
 			productType = "com.apple.product-type.library.dynamic";
+		};
+		B514DB672630F4B8007912DA /* libtweakemaild */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B514DB792630F4B9007912DA /* Build configuration list for PBXNativeTarget "libtweakemaild" */;
+			buildPhases = (
+				B514DB632630F4B8007912DA /* Sources */,
+				B514DB642630F4B8007912DA /* Frameworks */,
+				B514DB652630F4B8007912DA /* Headers */,
+				B514DB662630F4B8007912DA /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = libtweakemaild;
+			productName = libtweakemaild;
+			productReference = B514DB682630F4B8007912DA /* libtweakemaild */;
+			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
@@ -156,6 +392,9 @@
 				LastUpgradeCheck = 1140;
 				TargetAttributes = {
 					B514DB4C2630F438007912DA = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					B514DB672630F4B8007912DA = {
 						CreatedOnToolsVersion = 11.4.1;
 					};
 				};
@@ -174,6 +413,7 @@
 			projectRoot = "";
 			targets = (
 				B514DB4C2630F438007912DA /* libtweakemail */,
+				B514DB672630F4B8007912DA /* libtweakemaild */,
 			);
 		};
 /* End PBXProject section */
@@ -194,7 +434,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "/opt/MonkeyDev/bin/md --xcbp";
+			shellScript = "/opt/MonkeyDev/bin/md --xcbp\n";
+		};
+		B514DB662630F4B8007912DA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "ldid -S\"$SRCROOT/libtweakemaild/monkeydev.entitlements\" \"$BUILT_PRODUCTS_DIR/$EXECUTABLE_NAME\"\ncp \"$BUILT_PRODUCTS_DIR/$EXECUTABLE_NAME\" \"$SRCROOT/libtweakemail/Package/usr/libexec/$EXECUTABLE_NAME\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -203,16 +460,56 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B514DB942630F99E007912DA /* NSString+CDXPC.m in Sources */,
+				B514DB9E2630F99E007912DA /* NSData+CDXPC.m in Sources */,
+				B514DBAC2630F99F007912DA /* NSNumber+CDXPC.m in Sources */,
 				B514DB592630F438007912DA /* libtweakemail.mm in Sources */,
+				B514DB922630F99E007912DA /* NSNull+CDXPC.m in Sources */,
+				B514DB8E2630F99E007912DA /* NSDictionary+CDXPC.m in Sources */,
+				B514DBAA2630F99F007912DA /* NSArray+CDXPC.m in Sources */,
+				B514DB962630F99E007912DA /* NSDate+CDXPC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B514DB632630F4B8007912DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B514DB952630F99E007912DA /* NSString+CDXPC.m in Sources */,
+				B514DB9F2630F99E007912DA /* NSData+CDXPC.m in Sources */,
+				B514DBAD2630F99F007912DA /* NSNumber+CDXPC.m in Sources */,
+				B514DB732630F4B9007912DA /* main.m in Sources */,
+				B514DB932630F99E007912DA /* NSNull+CDXPC.m in Sources */,
+				B514DB8F2630F99E007912DA /* NSDictionary+CDXPC.m in Sources */,
+				B514DBAB2630F99F007912DA /* NSArray+CDXPC.m in Sources */,
+				B514DB972630F99E007912DA /* NSDate+CDXPC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		B514DBB12630FD3E007912DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B514DB672630F4B8007912DA /* libtweakemaild */;
+			targetProxy = B514DBB02630FD3E007912DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
 		B514DB5E2630F438007912DA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					armv7,
+					armv7s,
+					arm64,
+					arm64e,
+				);
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
+				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = YES;
 				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -224,7 +521,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/include/**";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LIBRARY_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/lib/**";
 				MonkeyDevPath = /opt/MonkeyDev;
 				MonkeyDevTheosPath = /opt/theos;
@@ -238,6 +535,16 @@
 		B514DB5F2630F438007912DA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					armv7,
+					armv7s,
+					arm64,
+					arm64e,
+				);
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
+				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
 				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -256,7 +563,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/include/**";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LIBRARY_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/lib/**";
 				MonkeyDevPath = /opt/MonkeyDev;
 				MonkeyDevTheosPath = /opt/theos;
@@ -271,10 +578,17 @@
 		B514DB612630F438007912DA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					armv7,
+					armv7s,
+					arm64,
+					arm64e,
+				);
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_ENTITLEMENTS = monkeydev.entitlements;
 				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = AUYLZA5X3V;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -284,15 +598,15 @@
 					"$(MonkeyDevTheosPath)/vendor/include/**",
 				);
 				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
-				MonkeyDevBuildPackageOnAnyBuild = NO;
+				MonkeyDevBuildPackageOnAnyBuild = YES;
 				MonkeyDevClearUiCacheOnInstall = NO;
 				MonkeyDevCopyOnBuild = NO;
-				MonkeyDevDeviceIP = "";
+				MonkeyDevDeviceIP = 192.168.1.167;
 				MonkeyDevDevicePassword = "";
 				MonkeyDevDevicePort = "";
 				MonkeyDevInstallOnAnyBuild = YES;
 				MonkeyDevInstallOnProfiling = YES;
-				MonkeyDevkillProcessOnInstall = SpringBoard;
+				MonkeyDevkillProcessOnInstall = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -301,10 +615,17 @@
 		B514DB622630F438007912DA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					armv7,
+					armv7s,
+					arm64,
+					arm64e,
+				);
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_ENTITLEMENTS = monkeydev.entitlements;
 				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = AUYLZA5X3V;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -314,17 +635,71 @@
 					"$(MonkeyDevTheosPath)/vendor/include/**",
 				);
 				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
-				MonkeyDevBuildPackageOnAnyBuild = NO;
+				MonkeyDevBuildPackageOnAnyBuild = YES;
 				MonkeyDevClearUiCacheOnInstall = NO;
 				MonkeyDevCopyOnBuild = NO;
-				MonkeyDevDeviceIP = "";
+				MonkeyDevDeviceIP = 192.168.1.167;
 				MonkeyDevDevicePassword = "";
 				MonkeyDevDevicePort = "";
 				MonkeyDevInstallOnAnyBuild = YES;
 				MonkeyDevInstallOnProfiling = YES;
-				MonkeyDevkillProcessOnInstall = SpringBoard;
+				MonkeyDevkillProcessOnInstall = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B514DB7A2630F4B9007912DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv7,
+					armv7s,
+					arm64,
+					arm64e,
+				);
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/theos/vendor/lib,
+					/opt/theos/sdks/iPhoneOS11.2.sdk/System/Library/PrivateFrameworks,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "libtweakemaild/libtweakemaild-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/include/**";
+				INSTALL_PATH = /usr/libexec;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LIBRARY_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/lib/**";
+				MonkeyDevBuildPackageOnAnyBuild = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B514DB7B2630F4B9007912DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv7,
+					armv7s,
+					arm64,
+					arm64e,
+				);
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/theos/vendor/lib,
+					/opt/theos/sdks/iPhoneOS11.2.sdk/System/Library/PrivateFrameworks,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "libtweakemaild/libtweakemaild-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/include/**";
+				INSTALL_PATH = /usr/libexec;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LIBRARY_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/lib/**";
+				MonkeyDevBuildPackageOnAnyBuild = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
@@ -345,6 +720,15 @@
 			buildConfigurations = (
 				B514DB612630F438007912DA /* Release */,
 				B514DB622630F438007912DA /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B514DB792630F4B9007912DA /* Build configuration list for PBXNativeTarget "libtweakemaild" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B514DB7A2630F4B9007912DA /* Release */,
+				B514DB7B2630F4B9007912DA /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
