@@ -181,7 +181,7 @@
     _MFMailAccountProxySource* _proxySource;
     BOOL _allowsRestrictedAccounts;
 }
-@property (readonly) unsigned long long hash;
+//@property (readonly) unsigned long long hash;
 @property (readonly) Class superclass;
 @property (copy,readonly) NSString * description;
 @property (copy,readonly) NSString * debugDescription;

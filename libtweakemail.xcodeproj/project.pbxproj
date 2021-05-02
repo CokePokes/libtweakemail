@@ -11,24 +11,24 @@
 		B514DB592630F438007912DA /* libtweakemail.mm in Sources */ = {isa = PBXBuildFile; fileRef = B514DB582630F438007912DA /* libtweakemail.mm */; };
 		B514DB692630F4B9007912DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B514DB502630F438007912DA /* Foundation.framework */; };
 		B514DB732630F4B9007912DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B514DB722630F4B9007912DA /* main.m */; };
-		B514DB8E2630F99E007912DA /* NSDictionary+CDXPC.m in Sources */ = {isa = PBXBuildFile; fileRef = B514DB7E2630F99E007912DA /* NSDictionary+CDXPC.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		B514DB8F2630F99E007912DA /* NSDictionary+CDXPC.m in Sources */ = {isa = PBXBuildFile; fileRef = B514DB7E2630F99E007912DA /* NSDictionary+CDXPC.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B514DB8E2630F99E007912DA /* NSDictionary+CDXPC.m in Sources */ = {isa = PBXBuildFile; fileRef = B514DB7E2630F99E007912DA /* NSDictionary+CDXPC.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Wno-objc-designated-initializers"; }; };
+		B514DB8F2630F99E007912DA /* NSDictionary+CDXPC.m in Sources */ = {isa = PBXBuildFile; fileRef = B514DB7E2630F99E007912DA /* NSDictionary+CDXPC.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Wno-objc-designated-initializers"; }; };
 		B514DB902630F99E007912DA /* NSData+CDXPC.h in Headers */ = {isa = PBXBuildFile; fileRef = B514DB7F2630F99E007912DA /* NSData+CDXPC.h */; };
 		B514DB912630F99E007912DA /* NSData+CDXPC.h in Headers */ = {isa = PBXBuildFile; fileRef = B514DB7F2630F99E007912DA /* NSData+CDXPC.h */; };
-		B514DB922630F99E007912DA /* NSNull+CDXPC.m in Sources */ = {isa = PBXBuildFile; fileRef = B514DB802630F99E007912DA /* NSNull+CDXPC.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		B514DB932630F99E007912DA /* NSNull+CDXPC.m in Sources */ = {isa = PBXBuildFile; fileRef = B514DB802630F99E007912DA /* NSNull+CDXPC.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		B514DB942630F99E007912DA /* NSString+CDXPC.m in Sources */ = {isa = PBXBuildFile; fileRef = B514DB812630F99E007912DA /* NSString+CDXPC.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		B514DB952630F99E007912DA /* NSString+CDXPC.m in Sources */ = {isa = PBXBuildFile; fileRef = B514DB812630F99E007912DA /* NSString+CDXPC.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		B514DB962630F99E007912DA /* NSDate+CDXPC.m in Sources */ = {isa = PBXBuildFile; fileRef = B514DB822630F99E007912DA /* NSDate+CDXPC.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		B514DB972630F99E007912DA /* NSDate+CDXPC.m in Sources */ = {isa = PBXBuildFile; fileRef = B514DB822630F99E007912DA /* NSDate+CDXPC.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B514DB922630F99E007912DA /* NSNull+CDXPC.m in Sources */ = {isa = PBXBuildFile; fileRef = B514DB802630F99E007912DA /* NSNull+CDXPC.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Wno-objc-designated-initializers"; }; };
+		B514DB932630F99E007912DA /* NSNull+CDXPC.m in Sources */ = {isa = PBXBuildFile; fileRef = B514DB802630F99E007912DA /* NSNull+CDXPC.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Wno-objc-designated-initializers"; }; };
+		B514DB942630F99E007912DA /* NSString+CDXPC.m in Sources */ = {isa = PBXBuildFile; fileRef = B514DB812630F99E007912DA /* NSString+CDXPC.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Wno-objc-designated-initializers"; }; };
+		B514DB952630F99E007912DA /* NSString+CDXPC.m in Sources */ = {isa = PBXBuildFile; fileRef = B514DB812630F99E007912DA /* NSString+CDXPC.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Wno-objc-designated-initializers"; }; };
+		B514DB962630F99E007912DA /* NSDate+CDXPC.m in Sources */ = {isa = PBXBuildFile; fileRef = B514DB822630F99E007912DA /* NSDate+CDXPC.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Wno-objc-designated-initializers"; }; };
+		B514DB972630F99E007912DA /* NSDate+CDXPC.m in Sources */ = {isa = PBXBuildFile; fileRef = B514DB822630F99E007912DA /* NSDate+CDXPC.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Wno-objc-designated-initializers"; }; };
 		B514DB982630F99E007912DA /* NSNumber+CDXPC.h in Headers */ = {isa = PBXBuildFile; fileRef = B514DB832630F99E007912DA /* NSNumber+CDXPC.h */; };
 		B514DB992630F99E007912DA /* NSNumber+CDXPC.h in Headers */ = {isa = PBXBuildFile; fileRef = B514DB832630F99E007912DA /* NSNumber+CDXPC.h */; };
 		B514DB9A2630F99E007912DA /* ObjectToXPC.h in Headers */ = {isa = PBXBuildFile; fileRef = B514DB842630F99E007912DA /* ObjectToXPC.h */; };
 		B514DB9B2630F99E007912DA /* ObjectToXPC.h in Headers */ = {isa = PBXBuildFile; fileRef = B514DB842630F99E007912DA /* ObjectToXPC.h */; };
 		B514DB9C2630F99E007912DA /* NSArray+CDXPC.h in Headers */ = {isa = PBXBuildFile; fileRef = B514DB852630F99E007912DA /* NSArray+CDXPC.h */; };
 		B514DB9D2630F99E007912DA /* NSArray+CDXPC.h in Headers */ = {isa = PBXBuildFile; fileRef = B514DB852630F99E007912DA /* NSArray+CDXPC.h */; };
-		B514DB9E2630F99E007912DA /* NSData+CDXPC.m in Sources */ = {isa = PBXBuildFile; fileRef = B514DB862630F99E007912DA /* NSData+CDXPC.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		B514DB9F2630F99E007912DA /* NSData+CDXPC.m in Sources */ = {isa = PBXBuildFile; fileRef = B514DB862630F99E007912DA /* NSData+CDXPC.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B514DB9E2630F99E007912DA /* NSData+CDXPC.m in Sources */ = {isa = PBXBuildFile; fileRef = B514DB862630F99E007912DA /* NSData+CDXPC.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Wno-objc-designated-initializers"; }; };
+		B514DB9F2630F99E007912DA /* NSData+CDXPC.m in Sources */ = {isa = PBXBuildFile; fileRef = B514DB862630F99E007912DA /* NSData+CDXPC.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Wno-objc-designated-initializers"; }; };
 		B514DBA02630F99E007912DA /* NSDictionary+CDXPC.h in Headers */ = {isa = PBXBuildFile; fileRef = B514DB872630F99E007912DA /* NSDictionary+CDXPC.h */; };
 		B514DBA12630F99F007912DA /* NSDictionary+CDXPC.h in Headers */ = {isa = PBXBuildFile; fileRef = B514DB872630F99E007912DA /* NSDictionary+CDXPC.h */; };
 		B514DBA22630F99F007912DA /* ObjectToXPC-Private.h in Headers */ = {isa = PBXBuildFile; fileRef = B514DB882630F99E007912DA /* ObjectToXPC-Private.h */; };
@@ -39,10 +39,10 @@
 		B514DBA72630F99F007912DA /* NSNull+CDXPC.h in Headers */ = {isa = PBXBuildFile; fileRef = B514DB8A2630F99E007912DA /* NSNull+CDXPC.h */; };
 		B514DBA82630F99F007912DA /* NSDate+CDXPC.h in Headers */ = {isa = PBXBuildFile; fileRef = B514DB8B2630F99E007912DA /* NSDate+CDXPC.h */; };
 		B514DBA92630F99F007912DA /* NSDate+CDXPC.h in Headers */ = {isa = PBXBuildFile; fileRef = B514DB8B2630F99E007912DA /* NSDate+CDXPC.h */; };
-		B514DBAA2630F99F007912DA /* NSArray+CDXPC.m in Sources */ = {isa = PBXBuildFile; fileRef = B514DB8C2630F99E007912DA /* NSArray+CDXPC.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		B514DBAB2630F99F007912DA /* NSArray+CDXPC.m in Sources */ = {isa = PBXBuildFile; fileRef = B514DB8C2630F99E007912DA /* NSArray+CDXPC.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		B514DBAC2630F99F007912DA /* NSNumber+CDXPC.m in Sources */ = {isa = PBXBuildFile; fileRef = B514DB8D2630F99E007912DA /* NSNumber+CDXPC.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		B514DBAD2630F99F007912DA /* NSNumber+CDXPC.m in Sources */ = {isa = PBXBuildFile; fileRef = B514DB8D2630F99E007912DA /* NSNumber+CDXPC.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B514DBAA2630F99F007912DA /* NSArray+CDXPC.m in Sources */ = {isa = PBXBuildFile; fileRef = B514DB8C2630F99E007912DA /* NSArray+CDXPC.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Wno-objc-designated-initializers"; }; };
+		B514DBAB2630F99F007912DA /* NSArray+CDXPC.m in Sources */ = {isa = PBXBuildFile; fileRef = B514DB8C2630F99E007912DA /* NSArray+CDXPC.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Wno-objc-designated-initializers"; }; };
+		B514DBAC2630F99F007912DA /* NSNumber+CDXPC.m in Sources */ = {isa = PBXBuildFile; fileRef = B514DB8D2630F99E007912DA /* NSNumber+CDXPC.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Wno-objc-designated-initializers"; }; };
+		B514DBAD2630F99F007912DA /* NSNumber+CDXPC.m in Sources */ = {isa = PBXBuildFile; fileRef = B514DB8D2630F99E007912DA /* NSNumber+CDXPC.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Wno-objc-designated-initializers"; }; };
 		B514DBAF2630FA71007912DA /* mailheaders.h in Headers */ = {isa = PBXBuildFile; fileRef = B514DBAE2630FA71007912DA /* mailheaders.h */; };
 		B514DBB32630FE0F007912DA /* libtweakemail-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = B514DBB22630FE0F007912DA /* libtweakemail-Prefix.pch */; };
 /* End PBXBuildFile section */
@@ -500,6 +500,7 @@
 		B514DB5E2630F438007912DA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = (
 					armv7,
 					armv7s,
@@ -528,6 +529,7 @@
 				OTHER_CFLAGS = "-DTHEOS_INSTANCE_NAME=\"\\\"libtweakemail\\\"\"";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USE_HEADERMAP = YES;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -535,6 +537,7 @@
 		B514DB5F2630F438007912DA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = (
 					armv7,
 					armv7s,
@@ -571,6 +574,7 @@
 				OTHER_CFLAGS = "-DTHEOS_INSTANCE_NAME=\"\\\"libtweakemail\\\"\"";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USE_HEADERMAP = YES;
 				VALIDATE_PRODUCT = NO;
 			};
 			name = Debug;
@@ -601,7 +605,7 @@
 				MonkeyDevBuildPackageOnAnyBuild = YES;
 				MonkeyDevClearUiCacheOnInstall = NO;
 				MonkeyDevCopyOnBuild = NO;
-				MonkeyDevDeviceIP = 192.168.1.167;
+				MonkeyDevDeviceIP = 192.168.1.82;
 				MonkeyDevDevicePassword = "";
 				MonkeyDevDevicePort = "";
 				MonkeyDevInstallOnAnyBuild = YES;
@@ -638,7 +642,7 @@
 				MonkeyDevBuildPackageOnAnyBuild = YES;
 				MonkeyDevClearUiCacheOnInstall = NO;
 				MonkeyDevCopyOnBuild = NO;
-				MonkeyDevDeviceIP = 192.168.1.167;
+				MonkeyDevDeviceIP = 192.168.1.82;
 				MonkeyDevDevicePassword = "";
 				MonkeyDevDevicePort = "";
 				MonkeyDevInstallOnAnyBuild = YES;
