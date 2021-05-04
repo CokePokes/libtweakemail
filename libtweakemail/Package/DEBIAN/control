@@ -3,7 +3,7 @@ Name: libtweakemail
 Version: 0.1-1
 Description: Send emails via code
 Section: Development
-Depends: firmware (>= 10.0), mobilesubstrate
+Depends: firmware (>= 8.0)
 Conflicts: 
 Replaces: 
 Priority: optional
