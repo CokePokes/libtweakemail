@@ -23,11 +23,10 @@ How to use in your tweak/app:
 	void *handle = dlopen("/usr/lib/libtweakemail.dylib", RTLD_NOW);
 	if (handle != NULL) {                                            
     
- 	   [objc_getClass("libtweakemail") sendEmailTo:@[@"coolstuff123123@gmail.com",
-                                                     @"goddamn325w34@gmail.com"]]
-                            bcc:nil
-                        subject:@"Pretty Cool Tweak Huh?"
-                           body:@"Hard body?"];
+ 	   [objc_getClass("libtweakemail") sendEmailTo:@[@"co3@gmail.com", @"gfe4@gmail.com"]
+                            			   bcc:nil
+                        		       subject:@"Pretty Cool Tweak Huh?"
+                       			          body:@"Hard body?"];
 					       				       
 	   dlclose(handle);
 	}
