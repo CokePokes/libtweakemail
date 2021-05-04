@@ -1,5 +1,0 @@
-#!/bin/sh
-
-/bin/launchctl unload /Library/LaunchDaemons/com.cokepokes.libtweakemaild.plist
-
-exit 0

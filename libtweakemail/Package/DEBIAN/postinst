@@ -2,6 +2,7 @@
 
 if [[ $1 == upgrade ]]; then
 	/bin/launchctl unload /Library/LaunchDaemons/com.cokepokes.libtweakemaild.plist
+    killall libtweakemaild 2> /dev/null
 fi
 
 chown root:wheel /usr/libexec/libtweakemaild
