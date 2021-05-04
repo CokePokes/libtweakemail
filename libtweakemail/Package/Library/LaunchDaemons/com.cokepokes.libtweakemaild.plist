@@ -15,7 +15,9 @@
 	</array>
 	<key>UserName</key>
 	<string>root</string>
-	<key>OnDemand</key>
+	<key>RunAtLoad</key>
+	<true/>
+	<key>KeepAlive</key>
 	<true/>
 </dict>
 </plist>
